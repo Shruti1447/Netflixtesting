@@ -1,0 +1,51 @@
+import asyncio
+import datetime
+from NETFLIXMUSIC import app
+from pyrogram import Client
+from config import START_IMG_URL
+from NETFLIXMUSIC.utils.database import get_served_chats
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+
+
+MESSAGE = f"""**๏ his is the advanced music player + management bot. 💗.
+
+🎧 ᴘʟᴀʏ + ᴠᴘʟᴀʏ + ᴄᴘʟᴀʏ 🎧
+
+➥ Supported Welcome - Left Notice, Tagall, VCtag, ban - Mute, Shayari, Lyrics, Song - Video Download, Etc... 💕
+
+🔐ᴜꜱᴇ » [/start](https://t.me/{app.username}?start=true) ᴛᴏ ᴄʜᴇᴄᴋ ʙᴏᴛ
+
+➲ ʙᴏᴛ :** @{app.username}"""
+
+BUTTON = InlineKeyboardMarkup(
+    [
+        [
+            InlineKeyboardButton("๏ Kidnap Me ๏", url=f"https://t.me/{app.username}?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")
+        ]
+    ]
+)
+
+CELEBRATION_VID_URL = "https://envs.sh/taW.mp4"
+
+BD_VID = "https://envs.sh/taW.mp4"
+
+async def send_message_to_chats():
+    try:
+        chats = await get_served_chats()
+
+        for chat_info in chats:
+            chat_id = chat_info.get('chat_id')
+            if isinstance(chat_id, int):
+                try:
+                    await app.send_video(chat_id, video=BD_VID, caption=MESSAGE, reply_markup=BUTTON)
+                    await asyncio.sleep(3)
+                except Exception as e:
+                    pass
+    except Exception as e:
+        pass
+async def continuous_broadcast():
+    while True:
+        await send_message_to_chats()
+        await asyncio.sleep(180000)
+
+asyncio.create_task(continuous_broadcast())
