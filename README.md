@@ -7,8 +7,7 @@
 </p>
 <h1 align ="center"><img src="https://readme-typing-svg.herokuapp.com?color=F778A1&width=350&lines=✨+🦋 𝐍𝐄𝐓𝐅𝐋𝐈𝐗 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓 🎵🔥🖤+🥀"></b></h1>
 
-<p align="center"><a href="https://t.me/Shrushthi_25"><img src="https://envs.sh/t9W.jpg
-" width="600"></a></p>
+<p align="center"><a href="https://t.me/Shrushthi_25"><img src="https://envs.sh/t9W.jpg" width="600"></a></p>
 
 <h3> <img src="https://readme-typing-svg.herokuapp.com?color=00BFFF&width=620&lines=✨+🦋+💗+𝐓𝐇𝐈𝐒 𝐈𝐒 𝐓𝐇𝐄 𝐌𝐎𝐒𝐓 𝐀𝐃𝐕𝐀𝐍𝐂𝐄𝐃 𝐌𝐔𝐒𝐈𝐂 𝐌𝐀𝐍𝐀𝐆𝐄𝐌𝐄𝐍𝐓 𝐑𝐎𝐁𝐎𝐓 🔥🥀 𝐁𝐘 𝐒𝐇𝐑𝐔𝐒𝐇𝐓𝐇𝐔 𝟐.𝟎 ✨+🦋+💗+"></b></h3>
 
